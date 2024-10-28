@@ -237,24 +237,26 @@ export const mainDemoOnepage = [
 ];
 
 export const blackMenu = [
-  { href: "/giris", title: "Giriş", className: "active", subMenu:[] },
-  { href: "/kurslar", title: "Kurslar", title:'Kurslar', subMenu:[] },
-  { href: "/entruman-tamir", title: "Enstrüman Tamiri",  subMenu:[
-    {
-      title: "Enstrüman Tamiri",
-      links:[
-        {href:'/entruman-tamir/telli-calgilar', text:"Telli Çalgılar"},
-        {href:'/entruman-tamir/tuslu-calgilar', text:"Tuşlu Çalgılar"},
-        {href:'/entruman-tamir/yayli-calgilar', text:"Yaylı Çalgılar"},
-        {href:'/entruman-tamir/vurmali-calgilar', text:"Vurmali Çalgılar"},
-        {href:'/entruman-tamir/uflemeli-calgilar', text:"Üflemeli Çalgılar"},
-        {href:'/entruman-tamir/amfiler', text:"Amfiler"},
-      ]
-    }
-  ] },
-  { href: "/hakkimizda", title: "Hakkimizda",  subMenu:[] },
-  { href: "/iletisim", title: "İletişim",  subMenu:[] },
- 
+  { href: "/", title: "Giriş", className: "active", subMenu: [] },
+  { href: "/kurslar", title: "Kurslar", title: 'Kurslar', subMenu: [] },
+  {
+    href: "/entruman-tamir", title: "Enstrüman Tamiri", subMenu: [
+      {
+        title: "Enstrüman Tamiri",
+        links: [
+          { href: '/entruman-tamir/telli-calgilar', text: "Telli Çalgılar" },
+          { href: '/entruman-tamir/tuslu-calgilar', text: "Tuşlu Çalgılar" },
+          { href: '/entruman-tamir/yayli-calgilar', text: "Yaylı Çalgılar" },
+          { href: '/entruman-tamir/vurmali-calgilar', text: "Vurmali Çalgılar" },
+          { href: '/entruman-tamir/uflemeli-calgilar', text: "Üflemeli Çalgılar" },
+          { href: '/entruman-tamir/amfiler', text: "Amfiler" },
+        ]
+      }
+    ]
+  },
+  { href: "/hakkimizda", title: "Hakkimizda", subMenu: [] },
+  { href: "/iletisim", title: "İletişim", subMenu: [] },
+
 ];
 
 export const menuItems = [

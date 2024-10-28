@@ -12,6 +12,9 @@ import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
 import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
+import { blackMenu } from "@/data/menuBlack";
+import HeaderBlack from "./tools/HeaderBlack";
+import BlackFooter from "./tools/BlackFooter";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -42,7 +45,7 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html lang="en" className="no-mobile no-touch ">
+    <html lang="tr" className="no-mobile no-touch ">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
@@ -69,7 +72,21 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="appear-animate body">{children}</body>
+      <body className="appear-animate body">
+        <div className="theme-strong">
+          <div className="dark-modes">
+            <div className="page bg-dark-d1" id="top">
+              <nav className="main-nav dark  bg-black-1 stick-fixed wow-menubar js-transparent fadeInDown animated">
+                <HeaderBlack links={blackMenu} />
+              </nav>
+              <main id="main">
+                {children}
+              </main>
+              <BlackFooter />
+            </div>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
