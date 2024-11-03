@@ -1,24 +1,21 @@
-"use client"
+//"use client"
 import AnimatedText from "@/components/common/AnimatedText";
 
 const KurslarHero = () => {
     return (
-        <div className="container d-flex align-items-center pt-10 pb-100 pt-sm-120 pb-sm-120">
+        <div className="container position-relative pt-lg-50 pt-sm-10 pb-100 pb-sm-20">
             {/* Section Content */}
             <div className="text-center">
                 <div className="row">
                     {/* Page Title */}
-                    <div className="col-md-12 offset-md-2 mt-50">
-                        <h1 className="hs-title-1 mb-50 mt-100">
-                            <span
-                                className="wow charsAnimIn"
-                                data-splitting="chars"
-                            >
-                                <AnimatedText text="Birebir Kurslar" />
+                    <div className="mt-50">
+                        <h1 className="hs-title-1 mb-50 mt-70 mb-sm-20">
+                            <span className=" charsAnimIn-2" data-splitting="chars">
+                                Birebir <span className="font-alt">Kurslar</span>
                             </span>
                         </h1>
                         <div className="row">
-                            <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                            <div className="  col-lg-8 offset-lg-2 pb-sm-30">
                                 <p
                                     className="section-descr mb-0 wow fadeIn"
                                     data-wow-delay="0.2s"

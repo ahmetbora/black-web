@@ -23,7 +23,7 @@ export default function Map() {
       </a>
 
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24572.368311964965!2d-75.602613!3d39.65993!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703f3d191cf13%3A0xf4674106f987fe3a!2zMjQ1IFF1aWdsZXkgQmx2ZCBTdGUgSywgTmV3IENhc3RsZSwgREUgMTk3MjAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1584450429598!5m2!1suk!2sua"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.451187435443!2d29.30540337664497!3d40.927777771361946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadb1f90c2b78d%3A0xa1db18057d36ed64!2sBlack%20Music%20Sanat%20Okulu!5e0!3m2!1str!2str!4v1730202914008!5m2!1str!2str"
         width={600}
         height={450}
         loading="lazy"

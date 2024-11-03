@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
-export default function GitarFaq() {
+export default function KemanFaq() {
   const questionRefs = useRef([]);
   const answerRefs = useRef([]);
   const [currentIndex, setCurrentIndex] = useState(-1);
@@ -118,7 +118,7 @@ export default function GitarFaq() {
               data-wow-offset={100}
             >
               <h2 className="section-title mb-50 mb-sm-20">
-                Kurs hakkında
+                Keman kursları
               </h2>
 
               <dl className="toggle">
